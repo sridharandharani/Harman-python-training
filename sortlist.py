@@ -1,3 +1,4 @@
+#To read five names from user and sort it
 name_list = []
 for i in range (0,6):
     name = input("enter names :")
