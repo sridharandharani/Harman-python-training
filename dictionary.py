@@ -1,5 +1,9 @@
 student_data = {
     "name" : "sridharan",
     "age":"21",
-    "place":"chennai"}
+    "place":{ "country": "india",
+              "city" : "chennai",
+
+    }
+}
 print(student_data)
