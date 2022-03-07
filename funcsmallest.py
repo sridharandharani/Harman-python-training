@@ -1,5 +1,5 @@
 # wtp to read 3 number from user find smallest num using func
-def smallest(a,b,c):
+def smallest(a,b,c): # defining the function
     if (a < b):
         if (a < c):
             return " A is small "
@@ -10,5 +10,5 @@ def smallest(a,b,c):
 x = int(input("Enter the 1st number :"))
 y = int(input("Enter the 2nd number :"))
 z = int(input("Enter the 3rd number :"))
-result = smallest(x,y,z)
+result = smallest(x,y,z) # calling the function
 print(result)
